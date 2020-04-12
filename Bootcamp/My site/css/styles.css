@@ -1,0 +1,90 @@
+body {
+    background: #F2E8B3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ACDEF2;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bold;
+    color: #B9B8D9;
+    margin-top: 1rem;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #BFD9B8;
+}
+a:visited {
+    text-decoration: none;
+    color: #BFD9B8;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ACDEF2;
+}
+blockquote {
+    color: #F2C4D5;
+}
+nav {
+    text-align: center;
+    padding-top: 1rem;
+}
+nav a {
+    margin: 0 2rem;
+}
+.row {
+    display: flex;
+}
+.column1 {
+    flex: 25%;
+    border-right: 3px solid #BFD9B8;
+    margin: -5px;
+}
+.column2 {
+    flex: 75%;
+}
+.column1 img {
+    padding: 5rem;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;   
+}
+legend {
+    padding: 1rem;
+    display: block;
+}
+label {
+    display: block;
+    padding: 0.5rem;
+}
+textarea {
+    height: 10rem;
+    width: 20rem;
+}
+button {
+    margin-top: 10px;
+    width: 15%;
+}
+button:hover {
+    background-color: violet;
+    cursor: pointer;
+    border-radius: none;
+}
+address {
+    margin-bottom: 10px;
+}

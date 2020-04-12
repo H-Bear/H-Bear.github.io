@@ -1,0 +1,101 @@
+body {
+    background-color: #BDD5E3;
+    color: #224277;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: cursive;
+    text-decoration: underline;
+    background-image: url("https://picsum.photos/200/300");
+    text-align: center;    
+}
+
+span {
+    background-color: lightblue;
+    padding: 0px 15px 0px 15px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+blockquote {
+    background-color: #82A5C5;
+    font-size: 14px;
+    float: right;
+    width: 50%;
+    border: solid navy 1px;
+    border-left: solid navy 3px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: #224277;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #224277;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #041D42;
+}
+
+#smaller {
+    font-size: 11px;
+}
+
+li {
+    display: block;
+}
+
+.everyother {
+    color: #FFFFFF;
+}
+
+blockquote .cite {
+    font-size: 12px;
+}
+
+img {
+    width: 15%;
+    float: left;
+    padding: 2rem;
+}
+
+body:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div img {
+    float: right;
+    width: 200px;
+    padding: 0 10px;
+}
+
+body:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    margin: 0 3rem;
+    border: lightblue 1px dashed;
+    border-radius: 5px;
+    padding: 2px;
+}

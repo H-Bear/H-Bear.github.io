@@ -1,0 +1,70 @@
+/* CSS! */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(168, 211, 231);
+}
+
+img {
+    border: 2px solid rgb(141, 59, 196);
+}
+
+h1 {
+    border: 2px dashed green;
+}
+
+blockquote {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+cite {
+    font-size: 1.5rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+li {
+    color: darkblue;
+}
+
+h2 {
+    background-color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+.kitten {
+    background: url(http://placekitten.com/200/300) no-repeat bottom left lightgreen;
+    height: 300px;
+    color: white;
+    width: 250px;
+}
+
+ul a:link {
+    text-decoration: none;
+    color: violet;
+}
+ul a:visited {
+    color: yellow;
+}
+ul a:hover {
+    text-decoration: underline;
+    color: darkslateblue;
+}
+
+a.ex:link {
+    border: 1px solid black;
+}
+
+h2, h3, .bold, a:link {
+    color: orange;
+}
+
+#myid {
+    color: #BF2CA7;
+}
