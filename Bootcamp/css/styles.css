@@ -99,3 +99,34 @@ nav a {
     border-radius: 5px;
     padding: 2px;
 }
+
+.swiper-slide {
+    text-align: center;
+}
+
+img {
+    height: 600px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: arial;
+    padding: 15px;
+    position: relative;
+    z-index: 100;
+}
+
+.brand {
+    margin: 0;
+    font-size: 50px;
+    cursor: grab;
+    cursor: -webkit-grab;
+    z-index: 10;
+}
