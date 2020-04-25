@@ -2,6 +2,7 @@ new Swiper(".swiper-container", {
     speed: 400,
     spaceBetween: 100,
     effect: "slide",
+    autoHeight: true;
     slidesPerView: 3,
     loop: true,
     navigation: {
