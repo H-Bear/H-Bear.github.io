@@ -3,7 +3,7 @@ new Swiper(".swiper-container", {
     spaceBetween: 100,
     effect: "slide",
     autoHeight: true,
-    slidesPerView: 3,
+    slidesPerView: auto,
     loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
