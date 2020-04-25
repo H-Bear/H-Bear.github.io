@@ -100,24 +100,3 @@ nav a {
     padding: 2px;
 }
 
-.swiper-slide {
-    text-align: center;
-}
-
-.main-nav {
-    background-color: black;
-    color: white;
-    margin: 0;
-    font-family: arial;
-    padding: 15px;
-    position: relative;
-    z-index: 100;
-}
-
-.brand {
-    margin: 0;
-    font-size: 50px;
-    cursor: grab;
-    cursor: -webkit-grab;
-    z-index: 10;
-}
